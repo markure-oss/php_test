@@ -1,15 +1,10 @@
-# Welcome to New PHP MVC by TANHONGIT
+
 
 The NEW-MVC-SHOP is a free e-commerce website project for everyone to use. It is built in pure PHP language. And anyone can use it.
 - Customers do not need to know much about technology.
 - Powerful system, many useful functions.
 - Easy to access, easy to use.
 
-## Support the project
-Support this project :stuck_out_tongue_winking_eye: :pray:
-<p align="center">
-    <a href="https://www.paypal.me/tanhongcom" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" data-origin="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="PayPal buymeacoffee TanHongIT"></a>
-</p>
 
 # 1. Configuration requirements
 
@@ -63,7 +58,6 @@ After a clone my repository to the local computer, you need to edit some code to
 
 You need to change the path in the '**config.php**' file to match the location of this source code on your server and must match the domain you registered.
 
-Path: [`/lib/config/config.php`](https://github.com/TanHongIT/new-mvc-shop/tree/master/lib/config)
 
 ```php
 <?php
@@ -75,10 +69,6 @@ define('PATH_URL_IMG_PRODUCT', PATH_URL . 'public/upload/products/');
 ### 5.2 Edit Connect Database
 
 You need to change the connection information to the database after you have cloned my repository so that the website can work.
-
-Path: [`/lib/config/database.php`](https://github.com/TanHongIT/new-mvc-shop/tree/master/lib/config)
-
-This is the path to the database file for you to download: [`/admin/database/***.sql`](https://github.com/TanHongIT/new-mvc-shop/tree/master/admin/database)
 
 ```php
 define('DB_HOST', 'localhost');
@@ -116,12 +106,9 @@ Tips: https://support.google.com/accounts/answer/185833?hl=en
 
 **Where SMTP_PWORD is the application password for your _gmail.com_ account.**
 
-Path: [`/lib/config/sendmail.php`](https://github.com/TanHongIT/new-mvc-shop/tree/master/lib/config)
 
 # 6. Demo
 
-1. Front-End: [http://tanhongit.epizy.com/new-mvc-shop/home](http://tanhongit.epizy.com/new-mvc-shop/home)
-2. Back-End: [http://tanhongit.epizy.com/new-mvc-shop/admin.php](http://tanhongit.epizy.com/new-mvc-shop/admin.php)
 
 > **_Account login on Backend_**
 
